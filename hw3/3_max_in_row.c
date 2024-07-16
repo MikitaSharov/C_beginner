@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     printf("Введите 3 числа через пробел\n");
     scanf("%d%d%d", &a, &b, &c);
 
-    _Bool count = a < b && b < c;
+    _Bool count = a <= b && b <= c;
 
     count ? printf("YES\n") : printf("NO\n");    
 
